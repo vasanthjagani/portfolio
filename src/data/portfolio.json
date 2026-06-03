@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "siteName": "Vasanth Jagani Portfolio",
+    "title": "Vasanth Jagani | Senior Python Developer",
+    "description": "Senior Python Developer with 5+ years of experience building scalable applications using Django, GraphQL, FastAPI, PostgreSQL, AWS, Docker, and Kubernetes."
+  },
+  "navigation": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Skills", "path": "/skills" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Experience", "path": "/experience" },
+    { "label": "Case Studies", "path": "/case-studies" },
+    { "label": "Blog", "path": "/blog" },
+    { "label": "Certifications", "path": "/certifications" },
+    { "label": "Contact", "path": "/contact" }
+  ],
+  "hero": {
+    "name": "Vasanth Jagani",
+    "title": "Senior Python Developer | Django, GraphQL & Cloud",
+    "introduction": "Senior Python Developer with 5+ years of experience in designing, developing, and optimizing scalable applications. Skilled in building RESTful and GraphQL APIs using Django, Django REST Framework, and FastAPI, with strong expertise in PostgreSQL, asynchronous processing with Celery and Redis, AWS S3, Docker, and Kubernetes deployments.",
+    "buttons": [
+      { "label": "View Projects", "type": "link", "path": "/projects", "variant": "primary" },
+      { "label": "Download Resume", "type": "download", "url": "/vasanth-jagani-2025.pdf", "variant": "secondary" },
+      { "label": "Contact Me", "type": "link", "path": "/contact", "variant": "outline" }
+    ],
+    "stats": [
+      { "value": 5, "suffix": "+", "label": "Years Experience" },
+      { "value": 2, "suffix": "+", "label": "Major Projects" },
+      { "value": 10, "suffix": "+", "label": "Technologies" },
+      { "value": 4, "suffix": "+", "label": "Years at BoscoSoft" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Building scalable backend systems with Python and modern cloud practices",
+    "paragraphs": [
+      "I'm a Senior Python Developer with 5+ years of experience in the development and analysis of Python, Django, and Odoo server technologies-based applications.",
+      "I design and develop consumer-based features using Python and Django within test-driven development (TDD) and pair-based programming environments, implementing MVC architecture and GraphQL query/mutation APIs for CRUD operations.",
+      "My experience spans church management and survey platforms, payment integrations (Fortis), SMS gateways, AWS S3 storage, CI/CD with Git, Docker containerization, and Kubernetes for microservices deployment.",
+      "I bring strong problem-solving skills with a focus on scalability, security, and maintainability — plus effective communication for leading teams or collaborating in Agile environments."
+    ],
+    "highlights": [
+      "Django & Django REST Framework",
+      "GraphQL APIs",
+      "FastAPI & REST APIs",
+      "PostgreSQL & MongoDB",
+      "Celery & Redis",
+      "AWS S3 & Cloud Deployments",
+      "Docker & Kubernetes",
+      "Agile / Scrum Practices"
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies and tools I use to deliver production-ready Python applications",
+    "categories": [
+      {
+        "name": "Backend",
+        "icon": "server",
+        "skills": ["Python", "Django", "Django REST Framework", "FastAPI", "Odoo", "GraphQL", "REST APIs"]
+      },
+      {
+        "name": "Database",
+        "icon": "database",
+        "skills": ["PostgreSQL", "MySQL", "MongoDB"]
+      },
+      {
+        "name": "DevOps & Cloud",
+        "icon": "terminal",
+        "skills": ["Docker", "Kubernetes", "AWS S3", "Git", "SVN", "CI/CD", "Linux", "Bash"]
+      },
+      {
+        "name": "Async & Caching",
+        "icon": "brain",
+        "skills": ["Celery", "Redis", "Performance Optimization"]
+      },
+      {
+        "name": "Testing & Quality",
+        "icon": "layout",
+        "skills": ["pytest", "unittest", "TDD", "Pair Programming"]
+      },
+      {
+        "name": "Other",
+        "icon": "server",
+        "skills": [
+          "Payment Gateway Integration",
+          "SMS Gateway Integration",
+          "Microservices",
+          "Agile / Scrum",
+          "Public Speaking & Training"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Production applications built for real-world organizations",
+    "items": [
+      {
+        "id": "cristo-plus",
+        "name": "Cristo+ — Church Management System",
+        "description": "C'S|3 Church Management System designed to manage all aspects of church operations including membership, congregation management, registry, giving and accounting, worship services, event scheduling, sacraments, and membership insights and reporting.",
+        "problemSolved": "Churches need a unified platform to manage members, events, giving, small groups, and sacraments — replacing fragmented manual processes and disconnected tools.",
+        "features": [
+          "Peoples and Membership Management",
+          "Automated People Flows & Workflows",
+          "Small Group Management",
+          "Event Management with Registration & Payments",
+          "Web and Mobile Giving Management",
+          "Fortis Payment Integration",
+          "SMS Gateway Integration",
+          "GraphQL API Layer"
+        ],
+        "technologies": [
+          "Python",
+          "Django",
+          "GraphQL",
+          "PostgreSQL",
+          "AWS S3",
+          "Kubernetes"
+        ],
+        "architecture": "Web/Mobile Clients → GraphQL API → Django → PostgreSQL → AWS S3",
+        "links": {
+          "liveDemo": null,
+          "github": null,
+          "caseStudy": "/case-studies#cristo-plus"
+        },
+        "featured": true,
+        "gradient": "from-blue-500 to-indigo-600"
+      },
+      {
+        "id": "kaptrack",
+        "name": "Kaptrack — Survey & Analytics Platform",
+        "description": "Survey application for efficient data capturing, tracking, and analytics. Collects responses, monitors survey progress, and analyzes data to generate insights with accurate data management and visualization for organizations.",
+        "problemSolved": "Organizations need reliable survey tools to capture field data, track progress in real time, and turn responses into actionable analytics and visualizations.",
+        "features": [
+          "Survey Creation & Distribution",
+          "Response Collection & Tracking",
+          "Progress Monitoring",
+          "Data Analytics & Insights",
+          "Data Visualization",
+          "GraphQL CRUD Operations"
+        ],
+        "technologies": [
+          "Python",
+          "Django",
+          "GraphQL",
+          "PostgreSQL"
+        ],
+        "architecture": "Survey Clients → GraphQL API → Django → PostgreSQL",
+        "links": {
+          "liveDemo": null,
+          "github": null,
+          "caseStudy": "/case-studies#kaptrack"
+        },
+        "featured": true,
+        "gradient": "from-cyan-500 to-blue-600"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Professional journey building scalable Python applications",
+    "items": [
+      {
+        "position": "Senior Python Developer",
+        "company": "Bosco Soft Technologies Pvt Ltd",
+        "duration": "2019 – 2025",
+        "type": "Full-time",
+        "responsibilities": [
+          "Designed, developed, and optimized scalable applications using Python, Django, and GraphQL.",
+          "Built RESTful and GraphQL APIs using Django, Django REST Framework, and FastAPI.",
+          "Managed PostgreSQL and MySQL databases with performance optimization and best practices.",
+          "Implemented automated testing with pytest and unittest to ensure code quality.",
+          "Worked with Celery and Redis for asynchronous task processing and caching.",
+          "Deployed applications using Docker and Kubernetes for microservices ecosystems.",
+          "Integrated AWS S3 for storage and connected CI systems with Git repositories.",
+          "Established Fortis Payment and SMS Gateway integrations in production applications.",
+          "Participated in Agile ceremonies including daily scrums, sprint reporting, and backlog analysis."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic foundation in engineering and power systems",
+    "items": [
+      {
+        "degree": "M.Tech (Power Electronics)",
+        "institution": "Sri Vasavi Engineering College, Tadepalligudem",
+        "duration": "2015 – 2017",
+        "coursework": [
+          "Power Conversion",
+          "Control Systems",
+          "Power Electronics"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "Continuous learning and professional development",
+    "items": []
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "subtitle": "Deep dives into how I solve complex technical challenges",
+    "items": [
+      {
+        "id": "cristo-plus",
+        "projectName": "Cristo+ — Church Management System",
+        "problem": "Churches needed an all-in-one system to manage membership, events, giving, small groups, sacraments, and reporting — with mobile giving, payment processing, and automated follow-up workflows.",
+        "solution": "Built a comprehensive church management platform with Django backend, GraphQL APIs for flexible data access, PostgreSQL for relational data, Fortis payment integration, SMS gateway configuration, and AWS S3 for storage — deployed on Kubernetes.",
+        "architecture": "Web/Mobile Clients → GraphQL API → Django MVC → PostgreSQL → AWS S3 → Payment/SMS Integrations",
+        "challenges": [
+          "Designing GraphQL schemas for complex membership and event workflows",
+          "Integrating Fortis Payment for web and mobile giving",
+          "Configuring SMS gateway for congregation communication",
+          "Building automated people flows for follow-ups and task completion",
+          "Deploying and managing microservices on Kubernetes"
+        ],
+        "results": [
+          "Delivered a full church operations platform over 3+ years",
+          "Unified membership, events, giving, and small group management",
+          "Enabled mobile, text, and online giving with accounting integration",
+          "Automated workflows for guest follow-up and task completion",
+          "Production deployment with CI/CD and cloud storage on AWS S3"
+        ],
+        "technologies": [
+          "Python",
+          "Django",
+          "GraphQL",
+          "PostgreSQL",
+          "AWS S3",
+          "Kubernetes",
+          "Docker",
+          "Git"
+        ]
+      },
+      {
+        "id": "kaptrack",
+        "projectName": "Kaptrack — Survey & Analytics Platform",
+        "problem": "Organizations required a reliable survey platform to capture field data, monitor survey progress, and analyze responses into actionable insights with strong data accuracy and visualization.",
+        "solution": "Developed a survey application using Python, Django, and GraphQL with PostgreSQL for data persistence, enabling efficient CRUD operations, progress tracking, and analytics dashboards for organizational decision-making.",
+        "architecture": "Survey Clients → GraphQL API → Django → PostgreSQL → Analytics Layer",
+        "challenges": [
+          "Building flexible GraphQL mutations for survey CRUD operations",
+          "Ensuring accurate data capture and validation across survey types",
+          "Monitoring real-time survey progress for field teams",
+          "Designing analytics and visualization for organizational insights"
+        ],
+        "results": [
+          "Delivered end-to-end survey capture and tracking over 1.5 years",
+          "Enabled organizations to monitor survey progress in real time",
+          "Provided data analytics and visualization for decision-making",
+          "Maintained accurate data management across survey workflows"
+        ],
+        "technologies": ["Python", "Django", "GraphQL", "PostgreSQL"]
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Technical articles and insights from my development journey",
+    "items": [
+      {
+        "slug": "graphql-crud-with-django",
+        "title": "GraphQL CRUD with Django",
+        "excerpt": "How to design GraphQL queries and mutations for CRUD operations in Django-backed applications.",
+        "date": "2025-02-10",
+        "readTime": "9 min read",
+        "tags": ["GraphQL", "Django", "Python"]
+      },
+      {
+        "slug": "django-rest-framework-patterns",
+        "title": "Django REST Framework Patterns",
+        "excerpt": "Practical patterns for building RESTful APIs with Django REST Framework, authentication, and PostgreSQL.",
+        "date": "2024-11-20",
+        "readTime": "10 min read",
+        "tags": ["Django", "REST API", "PostgreSQL"]
+      },
+      {
+        "slug": "celery-redis-async-tasks",
+        "title": "Async Tasks with Celery and Redis",
+        "excerpt": "Implementing asynchronous task processing and caching with Celery and Redis in production Django apps.",
+        "date": "2024-09-15",
+        "readTime": "8 min read",
+        "tags": ["Celery", "Redis", "Python"]
+      },
+      {
+        "slug": "deploying-microservices-kubernetes",
+        "title": "Deploying Microservices on Kubernetes",
+        "excerpt": "A practical overview of containerizing Python services with Docker and managing them in a Kubernetes ecosystem.",
+        "date": "2024-07-01",
+        "readTime": "12 min read",
+        "tags": ["Kubernetes", "Docker", "DevOps"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's build something great together",
+    "info": {
+      "phone": "+91 9700406386",
+      "email": "vasanthjagani24@gmail.com",
+      "github": null,
+      "linkedin": null,
+      "portfolio": null
+    },
+    "form": {
+      "fields": [
+        { "name": "name", "label": "Name", "type": "text", "placeholder": "Your name", "required": true },
+        { "name": "email", "label": "Email", "type": "email", "placeholder": "your@email.com", "required": true },
+        { "name": "message", "label": "Message", "type": "textarea", "placeholder": "Tell me about your project...", "required": true }
+      ],
+      "submitLabel": "Send Message"
+    }
+  },
+  "footer": {
+    "tagline": "Designing scalable Python applications with Django, GraphQL, and cloud-native deployments — from church management to survey analytics.",
+    "quickLinks": [
+      { "label": "Projects", "path": "/projects" },
+      { "label": "Case Studies", "path": "/case-studies" },
+      { "label": "Blog", "path": "/blog" },
+      { "label": "Contact", "path": "/contact" }
+    ],
+    "social": [
+      { "label": "Resume", "url": "/vasanth-jagani-2025.pdf", "icon": "file" },
+      { "label": "Email", "url": "mailto:vasanthjagani24@gmail.com", "icon": "mail" }
+    ],
+    "copyright": "Vasanth Jagani. All rights reserved."
+  }
+}
